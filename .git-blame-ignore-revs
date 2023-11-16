@@ -2,3 +2,5 @@
 # To add this to the project's Git config, execute the following:
 # git config blame.ignoreRevsFile .git-blame-ignore-revs
 # https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+
+d7426bff6b4705ce01df079a8e481653c2b7e21c
