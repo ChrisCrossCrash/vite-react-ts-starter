@@ -1,5 +1,7 @@
 {
-  // Let Stylelint validate the CSS and SCSS files.
+  // 
+  // Stylelint (stylelint.vscode-stylelint)
+  // 
   "css.validate": false,
   "scss.validate": false,
   "stylelint.validate": [
@@ -9,6 +11,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
+  //
+  // Prettier (esbenp.prettier-vscode)
+  //
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Prettier will wrap lines longer than 80 characters.
   "editor.rulers": [
