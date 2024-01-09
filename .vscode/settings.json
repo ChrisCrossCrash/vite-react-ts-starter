@@ -9,7 +9,7 @@
     "scss"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": "always"
   },
   //
   // Prettier (esbenp.prettier-vscode)
