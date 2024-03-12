@@ -4,9 +4,12 @@ env:
   es2021: true
 extends:
   - eslint:recommended
-  - plugin:@typescript-eslint/recommended
+  - plugin:@typescript-eslint/recommended-type-checked
   - plugin:react-hooks/recommended
   - prettier
+parserOptions:
+  project: true
+  tsconfigRootDir: __dirname
 ignorePatterns:
   - dist
 parser: '@typescript-eslint/parser'
