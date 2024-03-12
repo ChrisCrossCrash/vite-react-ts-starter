@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) => {
   // Set the third parameter to '' to load all env regardless of the `VITE_` prefix.
   // https://vitejs.dev/config/#using-environment-variables-in-config
   // @ts-expect-error Exception for missing `process` type in Node environment.
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   const env = loadEnv(mode, process.cwd(), '')
 
   return {
