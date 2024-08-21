@@ -28,5 +28,18 @@ export default defineConfig(({ mode }) => {
         generateScopedName: '[name]__[local]__[hash:base64:5]',
       },
     },
+    // vitest configuration
+    // https://vitest.dev/config/
+    test: {
+      environment: 'jsdom',
+      setupFiles: './src/test/setup.ts',
+
+      // Setting `globals` to `false` will break `testing-library` because the
+      // `cleanup` function is not available in the global scope.
+      // https://vitest.dev/guide/migration.html#globals-as-a-default
+      // Also, If you remove this option, don't forget to also remove the
+      // "vitest/globals" types from `tsconfig.app.json`
+      globals: true,
+    },
   }
 })
