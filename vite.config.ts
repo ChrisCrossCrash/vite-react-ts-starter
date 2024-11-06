@@ -27,6 +27,13 @@ export default defineConfig(({ mode }) => {
         // https://github.com/madyankin/postcss-modules/blob/325f0b33f1b746eae7aa827504a5efd0949022ef/README.md#generating-scoped-names
         generateScopedName: '[name]__[local]__[hash:base64:5]',
       },
+      preprocessorOptions: {
+        scss: {
+          // TODO: Delete this in Vite v6, when it should be the default.
+          // https://github.com/quasarframework/quasar/discussions/17518#discussioncomment-10680423
+          api: 'modern',
+        },
+      },
     },
     // vitest configuration
     // https://vitest.dev/config/
