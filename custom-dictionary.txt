@@ -1,1 +1,3 @@
+jsdom
+stylelint
 tseslint
