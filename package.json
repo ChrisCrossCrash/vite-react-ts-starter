@@ -19,7 +19,7 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@cspell/eslint-plugin": "^8.19.4",
+    "@cspell/eslint-plugin": "^9.1.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/react": "^19.1.8",
